@@ -4,6 +4,7 @@
 
 BACKUP ~RevisedBattles/backup~
 AUTHOR ~erebusant@verizon.net~
+VERSION ~6.5.1~
 
 ALWAYS  //Patch for BG2EE and EET
  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -771,7 +772,7 @@ REQUIRE_COMPONENT ~Setup-RevisedBattles.TP2~ ~0~ ~Requires Improved Battles - "e
 ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN 
 COPY ~RevisedBattles/jaellat/bmp~			~override~
 END
-ACTION_IF GAME_IS ~BG2E EET~ THEN BEGIN 
+ACTION_IF GAME_IS ~BG2Ee EET~ THEN BEGIN 
 COPY ~RevisedBattles/jaellat/EE~			~override~
 END
 
@@ -5482,3 +5483,4 @@ BUT_ONLY_IF_IT_CHANGES
 COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
 LAUNCH_PATCH_MACRO ~reindex_spell_or_item_extra_effects~
 BUT_ONLY_IF_IT_CHANGES
+
