@@ -4,7 +4,7 @@
 
 BACKUP ~RevisedBattles/backup~
 AUTHOR ~erebusant@verizon.net~
-VERSION ~6.5.1~
+VERSION ~6.6~
 
 ALWAYS  //Patch for BG2EE and EET
  ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
@@ -5488,3 +5488,4 @@ BUT_ONLY_IF_IT_CHANGES
 COPY_EXISTING_REGEXP GLOB ~^.+\.spl$~ ~override~
 LAUNCH_PATCH_MACRO ~reindex_spell_or_item_extra_effects~
 BUT_ONLY_IF_IT_CHANGES
+
