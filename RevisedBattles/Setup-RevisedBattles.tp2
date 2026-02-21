@@ -21,7 +21,7 @@ ALWAYS  //Patch for BG2EE and EET
 		"hideid.tra"
 		"sthideid.tra"
 		END
-		ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+		ACTION_DEFINE_ARRAY px_noconvert BEGIN install END
 		LAF HANDLE_CHARSETS
 			INT_VAR
 			infer_charsets = 1
@@ -105,6 +105,7 @@ LANGUAGE	~Spanish (translation by Lord Psion)~
 LANGUAGE	~Schinese (translation by barkingdog & Piedelo)~
 		~schinese~
 		~RevisedBattles/Language/Schinese/titles.tra~
+		~RevisedBattles/Language/Schinese/install.tra~
 		~RevisedBattles/Language/Schinese/b#cre.tra~
 		~RevisedBattles/Language/Schinese/b#dlg.tra~
 		~RevisedBattles/Language/Schinese/b#itm.tra~
